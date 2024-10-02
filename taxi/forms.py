@@ -1,8 +1,8 @@
+import re
+
 from django import forms
 
 from taxi.models import Driver, Car
-
-import re
 
 
 class DriverLicenseUpdateForm(forms.ModelForm):
